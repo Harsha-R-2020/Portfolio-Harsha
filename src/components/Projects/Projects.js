@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import leaf from "../../Assets/Projects/srms.png";
+import emotion from "../../Assets/Projects/startup.jpeg";
+import editor from "../../Assets/Projects/editor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import suicide from "../../Assets/Projects/stock.jpg";
+import bitsOfCode from "../../Assets/Projects/blog.jpg";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Mood Bot"
+              description="A simple mood bot named baymax developed using RASA framework through python"
+              ghLink="https://github.com/Harsha-R-2020/Basic-Mood-Bot-using-RASA-Framework"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Doctor Appointment System"
+              description="A Native Android Application to schedule doctor appointment, view available appointments and manage appointments.The Doctor user can manage booked appointments and send remainder for the appointments."
+              ghLink="https://github.com/Harsha-R-2020/Doctor_Appointment_System"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Heart Disease Prediction"
+              description="Heart disease prediction with a given dataset using machine learning. The given dataset contains the information about Heart disease. The dataset contains 14 columns. The Goal is to predict where the patient is having heart disease or not.Using KNN algorithm achived an acccuracy about 97%"
+              ghLink="https://github.com/Harsha-R-2020/Heart-Disease-Prediction-ML-Project"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Student Result Management System"
+              description="A Student Result Management System website for students and administrators(Teachers) to publish results, developed using HTML+CSS+Js+php and MS-SQL as a database."
+              ghLink="https://github.com/Harsha-R-2020/Result-Management-System"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
@@ -69,9 +69,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="TCS Stock Price Forecasting"
+              description="Using 'Machine Learning and Deep Learning' for the forecasting of TCS Stock price"
+              ghLink="https://github.com/Harsha-R-2020/TCS-Stock-Price-Forecasting"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -80,10 +80,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Startup profit prediction"
+              description="Prediction of startup price using machine learning with a given dataset. In the given dataset, R&D Spend, Administration Cost and Marketing Spend of 50 Companies are given along with the profit earned. The target is to prepare an ML model which can predict the profit value of a company if the value of its R&D Spend, Administration Cost and Marketing Spend are given."
+              ghLink="https://github.com/Harsha-R-2020/Startup_Profit_Prediction"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
