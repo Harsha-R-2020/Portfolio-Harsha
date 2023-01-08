@@ -2,10 +2,14 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Login from "./components/Login/Login";
+import Register from "./components/Login/SignUp";
+import { AuthProvider } from "./components/Login/Auth";
+import Forgotform from "./components/form/Forgot";
+import Form from "./components/form/regform";
+import './components/form/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Route,
@@ -29,6 +33,7 @@ function App() {
   }, []);
 
   return (
+    <AuthProvider>
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -36,14 +41,18 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/about" element={<Projects />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/forgot" element={<Forgotform />} />
+          <Route path="/form" element={<Form />} />
+          <Route path="/signup" element={<Register />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
       </div>
     </Router>
+     </AuthProvider>
+    
   );
 }
 

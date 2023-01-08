@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/srms.png";
-import emotion from "../../Assets/Projects/startup.jpeg";
-import editor from "../../Assets/Projects/editor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/stock.jpg";
-import bitsOfCode from "../../Assets/Projects/blog.jpg";
+import leaf from "../../Assets/Projects/chat.jpg";
+import editor from "../../Assets/Projects/Dcode.jpg";
+import suicide from "../../Assets/Projects/gds.jpg";
+import bitsOfCode from "../../Assets/Projects/kotlin.jpg";
+
 
 function Projects() {
   return (
@@ -15,20 +14,22 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Our Recent <strong className="purple">Events </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few Events We've conducted recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={suicide}
               isBlog={false}
-              title="Mood Bot"
-              description="A simple mood bot named baymax developed using RASA framework through python"
-              ghLink="https://github.com/Harsha-R-2020/Basic-Mood-Bot-using-RASA-Framework"
-              // demoLink="https://chatify-49.web.app/"
+              title="GDSC Orientation Session"
+              description="We are fascinated to announce that We are holding an Orientation Session for yet another brand new community for this tenure 2022-2023 .
+
+              In this session we will be focusing on how we plan to execute activities around our college for this upcoming Academic Year, We will introduce the GDSC Core Team members along with Faculty Advisor and Welcome them on board. Join the session to get to know the current GDSC team and the full timeline of exciting events from all fields of technology."
+              ghLink="https://gdsc.community.dev/events/details/developer-student-clubs-ramco-institute-of-technology-rajapalayam-presents-gdsc-orientation-session/"
+             
             />
           </Col>
 
@@ -36,10 +37,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Doctor Appointment System"
-              description="A Native Android Application to schedule doctor appointment, view available appointments and manage appointments.The Doctor user can manage booked appointments and send remainder for the appointments."
-              ghLink="https://github.com/Harsha-R-2020/Doctor_Appointment_System"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              title="Compose Camp Session"
+              description="Jetpack Compose is the modern toolkit for building native user interfaces for Android apps. Compose makes it easier and faster to build UIs on Android.Compose apps are written in the Kotlin programming language. Kotlin is the language that the majority of professional Android developers use to build apps.This event focuses around how to build Android apps using Jetpack Compose, where attendees get hands-on coding experience with Compose."
+              ghLink="https://gdsc.community.dev/events/details/developer-student-clubs-ramco-institute-of-technology-rajapalayam-presents-compose-camp-session-1/"
+        
             />
           </Col>
 
@@ -47,10 +48,20 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Heart Disease Prediction"
-              description="Heart disease prediction with a given dataset using machine learning. The given dataset contains the information about Heart disease. The dataset contains 14 columns. The Goal is to predict where the patient is having heart disease or not.Using KNN algorithm achived an acccuracy about 97%"
-              ghLink="https://github.com/Harsha-R-2020/Heart-Disease-Prediction-ML-Project"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              title="D-Code '22"
+              description="Meeting you with an yet another event of GDSC-Ramco Institute of Technology
+
+              The oldest encryption attempt known to mankind dates back to the kingdom of Egypt, around two thousand years before Christ.
+              
+              This event is all about decrypting.....
+              
+              In this event, particpants will be provided with an HEX-Encoded string to decrypt to find a meaningful word.
+              
+              RSVP for the event to particpate
+              
+              Limited participants only!!! "
+              ghLink="https://gdsc.community.dev/events/details/developer-student-clubs-ramco-institute-of-technology-rajapalayam-presents-d-code-22/"
+                          
             />
           </Col>
 
@@ -58,34 +69,20 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Student Result Management System"
-              description="A Student Result Management System website for students and administrators(Teachers) to publish results, developed using HTML+CSS+Js+php and MS-SQL as a database."
-              ghLink="https://github.com/Harsha-R-2020/Result-Management-System"
-              // demoLink="https://plant49-ai.herokuapp.com/"
+              title="CodeFreeChatbot"
+              description="In this Event, you will learn how to create a chatbot to answer support questions about specific products and services.
+
+              You can now build a fully functional chatbot to automate your website live chat without writing a single line of code.
+              
+              With codeless website chatbot builder, all you need to do is create a flow for your chatbot using our drag-and-drop interface and type in your bot responses."
+              ghLink="https://gdsc.community.dev/events/details/developer-student-clubs-ramco-institute-of-technology-rajapalayam-presents-codefreechatbot/"
+             
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="TCS Stock Price Forecasting"
-              description="Using 'Machine Learning and Deep Learning' for the forecasting of TCS Stock price"
-              ghLink="https://github.com/Harsha-R-2020/TCS-Stock-Price-Forecasting"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
+        
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Startup profit prediction"
-              description="Prediction of startup price using machine learning with a given dataset. In the given dataset, R&D Spend, Administration Cost and Marketing Spend of 50 Companies are given along with the profit earned. The target is to prepare an ML model which can predict the profit value of a company if the value of its R&D Spend, Administration Cost and Marketing Spend are given."
-              ghLink="https://github.com/Harsha-R-2020/Startup_Profit_Prediction"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+       
         </Row>
       </Container>
     </Container>

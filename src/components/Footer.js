@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
+  AiFillGoogleCircle,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
@@ -14,14 +14,14 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Harsha R</h3>
+          <h3>Designed and Developed by Harsha R - GDSC Lead 2022-23</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Harsha</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://github.com/Harsha-R-2020"
                 style={{ color: "white" }}
@@ -31,19 +31,20 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
+            */}
             <li className="social-icons">
               <a
-                href="https://twitter.com/HarshaR12102002"
+                href="https://gdsc.community.dev/ramco-institute-of-technology-rajapalayam/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
-              </a>
+                <AiFillGoogleCircle />
+              </a> 
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/harsha-r-564a97214/"
+                href="https://www.linkedin.com/company/google-developer-student-club-ramco-institute-of-technology/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +54,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/_harsha_r_le2111/"
+                href="https://www.instagram.com/gdsc_rit/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
