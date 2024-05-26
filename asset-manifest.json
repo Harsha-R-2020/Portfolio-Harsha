@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Harsha/static/css/main.c9add2a9.css",
+    "main.css": "/Portfolio-Harsha/static/css/main.ab2124b9.css",
     "main.js": "/Portfolio-Harsha/static/js/main.f27fcce1.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio-Harsha/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Harsha/static/js/787.1ed0c42c.chunk.js",
@@ -26,13 +26,13 @@
     "static/media/logo.png": "/Portfolio-Harsha/static/media/logo.d1ff9af5e6625a9a8a03.png",
     "index.html": "/Portfolio-Harsha/index.html",
     "static/media/pre.svg": "/Portfolio-Harsha/static/media/pre.0513433cbd63d280df06.svg",
-    "main.c9add2a9.css.map": "/Portfolio-Harsha/static/css/main.c9add2a9.css.map",
+    "main.ab2124b9.css.map": "/Portfolio-Harsha/static/css/main.ab2124b9.css.map",
     "main.f27fcce1.js.map": "/Portfolio-Harsha/static/js/main.f27fcce1.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio-Harsha/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Harsha/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9add2a9.css",
+    "static/css/main.ab2124b9.css",
     "static/js/main.f27fcce1.js"
   ]
 }
