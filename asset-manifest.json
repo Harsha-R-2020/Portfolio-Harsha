@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/Portfolio-Harsha/static/css/main.ab2124b9.css",
-    "main.js": "/Portfolio-Harsha/static/js/main.7d3ff6f7.js",
+    "main.js": "/Portfolio-Harsha/static/js/main.5750da24.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio-Harsha/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Harsha/static/js/787.1ed0c42c.chunk.js",
+    "static/media/CCE_Pricefx_ Harsha_page-0001.jpg": "/Portfolio-Harsha/static/media/CCE_Pricefx_ Harsha_page-0001.bf40dbae80d94f57bd39.jpg",
     "static/media/HARSHA R_page.jpg": "/Portfolio-Harsha/static/media/HARSHA R_page.be3e071e17bf7f4ba155.jpg",
+    "static/media/Harsha R_page-0001.jpg": "/Portfolio-Harsha/static/media/Harsha R_page-0001.0f85404c0dc88937e8f0.jpg",
     "static/media/CourseraT2BEVHKK4CU6_page0001.jpg": "/Portfolio-Harsha/static/media/CourseraT2BEVHKK4CU6_page0001.c86bbabe7edff4e67803.jpg",
     "static/media/about-bg.png": "/Portfolio-Harsha/static/media/about-bg.86d01f7f59f5a09d18c5.png",
     "static/media/Harsha_Resume_111122.pdf": "/Portfolio-Harsha/static/media/Harsha_Resume_111122.f777fc6243f87cdc0111.pdf",
     "static/media/document_page.jpg": "/Portfolio-Harsha/static/media/document_page.75a9c8122e24f3c6b339.jpg",
-    "static/media/1687318354687.jpg": "/Portfolio-Harsha/static/media/1687318354687.d953e9a76394fbfabddc.jpg",
     "static/media/bg.jpeg": "/Portfolio-Harsha/static/media/bg.5f7bccd03d347022a5e2.jpeg",
     "static/media/geonslogix2022_page.jpg": "/Portfolio-Harsha/static/media/geonslogix2022_page.f90062290040844d8329.jpg",
     "static/media/editor.png": "/Portfolio-Harsha/static/media/editor.c4ed516d92d44dda66c2.png",
@@ -27,12 +28,12 @@
     "index.html": "/Portfolio-Harsha/index.html",
     "static/media/pre.svg": "/Portfolio-Harsha/static/media/pre.0513433cbd63d280df06.svg",
     "main.ab2124b9.css.map": "/Portfolio-Harsha/static/css/main.ab2124b9.css.map",
-    "main.7d3ff6f7.js.map": "/Portfolio-Harsha/static/js/main.7d3ff6f7.js.map",
+    "main.5750da24.js.map": "/Portfolio-Harsha/static/js/main.5750da24.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio-Harsha/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Harsha/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab2124b9.css",
-    "static/js/main.7d3ff6f7.js"
+    "static/js/main.5750da24.js"
   ]
 }
