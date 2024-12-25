@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Harsha/static/css/main.ab2124b9.css",
-    "main.js": "/Portfolio-Harsha/static/js/main.364050ee.js",
+    "main.css": "/Portfolio-Harsha/static/css/main.d795ee3d.css",
+    "main.js": "/Portfolio-Harsha/static/js/main.e152ad75.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio-Harsha/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Harsha/static/js/787.1ed0c42c.chunk.js",
     "static/media/CCE_Pricefx_ Harsha_page-0001.jpg": "/Portfolio-Harsha/static/media/CCE_Pricefx_ Harsha_page-0001.bf40dbae80d94f57bd39.jpg",
@@ -27,13 +27,13 @@
     "static/media/logo.png": "/Portfolio-Harsha/static/media/logo.d1ff9af5e6625a9a8a03.png",
     "index.html": "/Portfolio-Harsha/index.html",
     "static/media/pre.svg": "/Portfolio-Harsha/static/media/pre.0513433cbd63d280df06.svg",
-    "main.ab2124b9.css.map": "/Portfolio-Harsha/static/css/main.ab2124b9.css.map",
-    "main.364050ee.js.map": "/Portfolio-Harsha/static/js/main.364050ee.js.map",
+    "main.d795ee3d.css.map": "/Portfolio-Harsha/static/css/main.d795ee3d.css.map",
+    "main.e152ad75.js.map": "/Portfolio-Harsha/static/js/main.e152ad75.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio-Harsha/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Harsha/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab2124b9.css",
-    "static/js/main.364050ee.js"
+    "static/css/main.d795ee3d.css",
+    "static/js/main.e152ad75.js"
   ]
 }
